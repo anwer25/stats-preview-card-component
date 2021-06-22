@@ -1,0 +1,25 @@
+:root
+    box-sizing: border-box
+    font-size: 100%
+
+
+*, *:after, *:before
+    box-sizing: inherit
+
+body
+    font-size: 15px
+    font-family: Inter, sans-serif
+    font-weight: 400
+    color: $white
+    background-color: $veryDarkBlue
+
+a, a:active a:visited
+    color: $white
+    text-decoration: none
+        
+
+@for $item from 1 through 6
+    h#{$item}
+        margin: 0
+        padding: 0
+     
